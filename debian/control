@@ -25,7 +25,7 @@ Description: qp solver blal blah
  This package contains the library.
 
 
-Package: libcoinor-qpoases3.0.0
+Package: libcoinor-qpoases-dev
 Architecture: any
 Depends: ${shlibs:Depends},
          libcoinor-qpoases3.0.0 (= ${binary:Version})
