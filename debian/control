@@ -1,0 +1,38 @@
+Source: coinor-qpoases
+Priority: optional
+Maintainer: Greg Horn <gregmainland@gmail.com>
+Build-Depends: debhelper (>= 9),
+               cmake,
+               libblas-dev,
+               liblapack-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: http://casadi.org
+Vcs-Svn: https://projects.coin-or.org/svn/qpOASES/trunk
+Vcs-Browser: https://projects.coin-or.org/Ipopt/browser
+
+
+Package: libcoinor-qpoases3.0.0
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: qp solver blal blah
+ it's a qpsolver blah
+ blah de blah blah blah
+ .
+ woohoo
+ .
+ This package contains the library.
+
+
+Package: libcoinor-qpoases3.0.0
+Architecture: any
+Depends: ${shlibs:Depends},
+         libcoinor-qpoases3.0.0 (= ${binary:Version})
+Description: qp solver blal blah (development files)
+ it's a qpsolver blah
+ blah de blah blah blah
+ .
+ woohoo
+ .
+ This package contains the development files.
